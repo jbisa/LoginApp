@@ -13,6 +13,12 @@
 		4D8FF16B1A87A3DE005CE741 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FF16A1A87A3DE005CE741 /* Images.xcassets */; };
 		4D8FF16E1A87A3DE005CE741 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FF16C1A87A3DE005CE741 /* LaunchScreen.xib */; };
 		4D8FF17A1A87A3DE005CE741 /* LoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FF1791A87A3DE005CE741 /* LoginAppTests.swift */; };
+		4D8FF18A1A87B062005CE741 /* background.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FF1841A87B062005CE741 /* background.PNG */; };
+		4D8FF18B1A87B062005CE741 /* logo-29pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FF1851A87B062005CE741 /* logo-29pt.png */; };
+		4D8FF18C1A87B062005CE741 /* logo-40pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FF1861A87B062005CE741 /* logo-40pt.png */; };
+		4D8FF18D1A87B062005CE741 /* logo-60pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FF1871A87B062005CE741 /* logo-60pt.png */; };
+		4D8FF18E1A87B062005CE741 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FF1881A87B062005CE741 /* logo.png */; };
+		4D8FF18F1A87B062005CE741 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FF1891A87B062005CE741 /* monster.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		4D8FF1731A87A3DE005CE741 /* LoginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8FF1781A87A3DE005CE741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8FF1791A87A3DE005CE741 /* LoginAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppTests.swift; sourceTree = "<group>"; };
+		4D8FF1841A87B062005CE741 /* background.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.PNG; sourceTree = "<group>"; };
+		4D8FF1851A87B062005CE741 /* logo-29pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-29pt.png"; sourceTree = "<group>"; };
+		4D8FF1861A87B062005CE741 /* logo-40pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-40pt.png"; sourceTree = "<group>"; };
+		4D8FF1871A87B062005CE741 /* logo-60pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-60pt.png"; sourceTree = "<group>"; };
+		4D8FF1881A87B062005CE741 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		4D8FF1891A87B062005CE741 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,7 @@
 			children = (
 				4D8FF1631A87A3DE005CE741 /* AppDelegate.swift */,
 				4D8FF1651A87A3DE005CE741 /* ViewController.swift */,
+				4D8FF1831A87B062005CE741 /* Images */,
 				4D8FF1671A87A3DE005CE741 /* Main.storyboard */,
 				4D8FF16A1A87A3DE005CE741 /* Images.xcassets */,
 				4D8FF16C1A87A3DE005CE741 /* LaunchScreen.xib */,
@@ -110,6 +123,19 @@
 				4D8FF1781A87A3DE005CE741 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D8FF1831A87B062005CE741 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D8FF1841A87B062005CE741 /* background.PNG */,
+				4D8FF1851A87B062005CE741 /* logo-29pt.png */,
+				4D8FF1861A87B062005CE741 /* logo-40pt.png */,
+				4D8FF1871A87B062005CE741 /* logo-60pt.png */,
+				4D8FF1881A87B062005CE741 /* logo.png */,
+				4D8FF1891A87B062005CE741 /* monster.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +219,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8FF1691A87A3DE005CE741 /* Main.storyboard in Resources */,
+				4D8FF18A1A87B062005CE741 /* background.PNG in Resources */,
+				4D8FF18F1A87B062005CE741 /* monster.png in Resources */,
+				4D8FF18C1A87B062005CE741 /* logo-40pt.png in Resources */,
 				4D8FF16E1A87A3DE005CE741 /* LaunchScreen.xib in Resources */,
+				4D8FF18E1A87B062005CE741 /* logo.png in Resources */,
 				4D8FF16B1A87A3DE005CE741 /* Images.xcassets in Resources */,
+				4D8FF18B1A87B062005CE741 /* logo-29pt.png in Resources */,
+				4D8FF18D1A87B062005CE741 /* logo-60pt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +437,7 @@
 				4D8FF17F1A87A3DE005CE741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D8FF1801A87A3DE005CE741 /* Build configuration list for PBXNativeTarget "LoginAppTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				4D8FF1821A87A3DE005CE741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
